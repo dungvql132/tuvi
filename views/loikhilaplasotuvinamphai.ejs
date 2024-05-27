@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Lập lá số tử vi</title>
+</head>
+
+<body>
+    <div class="full">
+        <div class="top">
+            <div class="top-one">
+                <div class="top-box"><a class="a" href="/gioithieu">
+                        <p class="top-content">Giới thiệu</p>
+                    </a></div>
+                <a class="a" href="/">
+                    <div class="top-box"><img src="/image/logochu1.png" class="top-content-image"></div>
+                </a>
+                <div class="top-box"><a class="a" target="_blank"
+                        href="https://podcasters.spotify.com/pod/show/minh-phuc-duong">
+                        <p class="top-content">Podcast</p>
+                    </a></div>
+            </div>
+            <div class="top-two">
+                <a class="b" href="/"><img class="b" src="/image/logochu1.png"></a>
+                <img src="/image/menuicon.png" class="top-content-image ba" id="button">
+            </div>
+            <div class="top-bar-moblie" id="bar-moblie">
+                <div class="top-box-mb"><a class="a" href="/gioithieu">
+                    <p class="top-content">1.Giới thiệu</p>
+                </a></div>
+                <div class="top-box-mb"><a class="a" target="_blank"
+                    href="https://podcasters.spotify.com/pod/show/minh-phuc-duong">
+                    <p class="top-content">2. Nghe Podcast</p>
+                </a></div>
+            </div>
+        </div>
+        <div class="mid">
+
+            <div class="mid-one webbanner">
+                <div class="banner">
+                    <img class="banner" src="/image/laplasobanner.png">
+                </div>
+            </div>
+            <div class="mid-one mobibanner" >
+                <div class="banner">
+                    <img class="banner" src="/image/laplaso.mobibanner.png">
+                </div>
+            </div>
+
+            <div class="mid-one">
+                <div class="banner">
+                    <img class="banner bo" src="/image/loilaplaso.png">
+                </div>
+            </div>
+            <!-- content center -->
+            <div class="mid-one">
+                <!-- first box -->
+                <form class="form-lap-la-so" action="/lasonamphai" method="post">
+                    <div class="banner form-top-11" >
+                        <p class="menu">Lập lá số tử vi</p>
+                    </div>
+                    <div class="form-top">
+                        <div class="form-left">
+                            <div class="form-content">
+                                <label class="form-top-1" for="hoTen">Họ và tên:</label>
+                            </div>
+                            <div class="form-content">
+                                <label class="form-top-1" for="gioSinh">Giờ sinh:</label>
+                            </div>
+                            <div class="form-content">
+                                <label class="form-top-1" for="ngaySinh">Ngày sinh:</label>
+                            </div>
+                            <div class="form-content">
+                                <label class="form-top-1" for="thangSinh">Tháng sinh:</label>
+                            </div>
+                            <div class="form-content">
+                                <label class="form-top-1" for="namSinh">Năm sinh:</label>
+                            </div>
+                            <div class="form-content">
+                                <label class="form-top-1" for="gioiTinh">Giới tính:</label>
+                            </div>
+                            <div class="form-content">
+                                <label class="form-top-1" for="loaiLich">Loại lịch:</label>
+                            </div>
+                            <div class="form-content">
+                                <label class="form-top-1" for="namXemHan">Năm xem hạn:</label>
+                            </div>
+                        </div>
+                        <div class="form-right">
+                            <div class="form-content">
+                                <input class="form-to" style="width: 150px !important" type="text" id="hoTen" name="hoTen" value="Đương số">
+                            </div>
+                            <div class="form-content">
+                                <select style="width: 150px !important" id="gioSinh" name="gioSinh">
+                                    <option value="1">Tý (23:00 - 0:59)</option>
+                                    <option value="2">Sửu (1:00 - 2:59)</option>
+                                    <option value="3">Dần (3:00 - 4:59)</option>
+                                    <option value="4">Mão (5:00 - 6:59)</option>
+                                    <option value="5">Thìn (7:00 - 8:59)</option>
+                                    <option value="6">Tỵ (9:00 - 10:59)</option>
+                                    <option value="7">Ngọ (11:00 - 12:59)</option>
+                                    <option value="8">Mùi (13:00 - 14:59)</option>
+                                    <option value="9">Thân (15:00 - 16:59)</option>
+                                    <option value="10">Dậu (17:00 - 18:59)</option>
+                                    <option value="11">Tuất (19:00 - 20:59)</option>
+                                    <option value="12">Hợi (21:00 - 22:59)</option>
+                                </select>
+                            </div>
+                            <div class="form-content">
+                                <input class="form-top-2" style="width: 40px !important" type="number" id="ngaySinh"
+                                    name="ngaySinh" min="1 " value="2" max="31">
+                            </div>
+                            <div class="form-content">
+                                <input class="form-top-2" style="width: 40px !important" type="number" id="thangSinh"
+                                    name="thangSinh" min="1" value="6" max="12">
+                            </div>
+                            <div class="form-content">
+                                <input class="form-top-2" style="width: 68px !important" type="number" id="namSinh"
+                                    name="namSinh" min="1900 " value="1985" max="2060">
+                            </div>
+                            <div class="form-content">
+                                <select class="form-top-2" id="gioiTinh" name="gioiTinh">
+                                    <option value="1">Nam</option>
+                                    <option value="2">Nữ</option>
+                                </select>
+                            </div>
+                            <div class="form-content">
+                                <select class="form-top-2" id="loaiLich" name="loaiLich">
+                                    <option value="1">Lịch Dương</option>
+                                    <option value="2">Lịch Âm</option>
+                                </select>
+                            </div>
+                            <div class="form-content">
+                                <input type="number" style="width: 68px !important" id="namXemHan" name="namXemHan"
+                                    value="2024">
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="form-top">
+                        <button type="submit" class="sub-button">Lập lá số</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="mid-one webbanner">
+                <div class="banner ">
+                    <img class="banner" src="image/luangiai.png">
+                </div>
+            </div>
+
+            <div class="mid-one mobibanner">
+                <div class="banner">
+                    <img class="banner" src="image/luangiai.mobi.png">
+                </div>
+            </div>
+
+            <div class="mid-one">
+                <div class="mid-one-content1">
+                    <a><img class="banner1" src="/image/box5.png"></a>
+                    <a><img class="banner1" src="/image/box6.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="bot">
+            <div class="bot-item">
+                <a href="https://www.facebook.com/tuvi.minhphucduong" target="_blank">
+                    <img class="icon" src="/image/facebook.png">
+                </a>
+
+                <a href="https://www.youtube.com/@vn.minhphucduong" target="_blank">
+                    <img class="icon" src="/image/youtube.png">
+                </a>
+
+                <a href="https://podcasts.apple.com/us/podcast/minh-ph%C3%BAc-%C4%91%C6%B0%E1%BB%9Dng/id1746343612" target="_blank">
+                    <img class="icon" src="/image/podcasts.png">
+                </a>
+
+                <a href="https://open.spotify.com/show/4zxnJaHsMfmcNdlP1udgW0" target="_blank">
+                    <img class="icon" src="/image/spotify.png">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        var menuButton = document.getElementById("button")
+        var menuMobile = document.getElementById("bar-moblie")
+
+        function showMenu() {
+            if (menuMobile.style.visibility === "hidden") {
+                menuMobile.style.visibility = "visible";
+                menuMobile.style.opacity = "1";
+                menuMobile.style.transition = "visibility 0.3s , opacity 0.3s linear";
+            } else {
+                menuMobile.style.visibility = "hidden";
+                menuMobile.style.opacity = "0";
+                menuMobile.style.transition = "visibility 0.3s , opacity 0.3s linear";
+            }
+        }
+        menuButton.addEventListener("click", showMenu)
+    </script>
+</body>
+
+</html>
