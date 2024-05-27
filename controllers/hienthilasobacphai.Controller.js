@@ -1198,7 +1198,7 @@ const posthinethilaso = (req, res) => {
     }
     const datapost = laplaso(ok.hoTen, ok.ngaySinh, ok.thangSinh, ok.namSinh, ok.gioiTinh, ok.gioSinh, ok.loaiLich, ok.namXemHan)
 
-    const { createCanvas, registerFont, Canvas, Image } = require('canvas')
+    const { createCanvas, registerFont, Canvas, Image } = require('../canvas')
     const canvas = createCanvas(800, 900, "png")
     const ctx = canvas.getContext('2d')
     registerFont(path.join(__dirname, 'image', 'RobotoCondensed-Black.ttf'), { family: 'font' })
